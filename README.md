@@ -3,8 +3,8 @@ Basic Finite State Machine with Datapath (FSMD) to compute the length c[i][j] of
 a[1],...,a[i] and b[1],...,b[j] for i= 0,...,m(3 bits) and j=0,...n(3 bits).
 
 ## Notes :
-- The a,b arrays are rom/ram 4 x 4 letters, which every letter has a unique binary number (5 bits).
-- The a,b array indices should start from 0 to 3, but the program works on indices from 1 to 3.
+- The a,b arrays are rom/ram 7 x 1 letter, which every letter has a unique binary number (5 bits).
+- The a,b array indices should start from 0 to 7, but the program works on indices from 1 to 7.
 
 ## Install
 
